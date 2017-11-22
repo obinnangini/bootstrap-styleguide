@@ -1,0 +1,30 @@
+$fa-font-path: '~font-awesome/fonts';
+$icon-font-path: '~open-iconic/font/fonts/';
+$font-styles-path: '../../../obi-bootstrap/fonts';
+$font-family-base: 'Open Sans', Arial, sans-serif;
+@import '../../../obi-bootstrap/scss/obi-common';
+
+html.dark {
+  @import '../../../obi-bootstrap/scss/dark-variables';
+  @import '../../../obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
+  @import '../../../obi-bootstrap/scss/class-overrides/index';
+  @import '~bootstrap-vue/dist/bootstrap-vue';
+  @import './partials/body';
+  @import '~ag-grid/src/styles/ag-grid';
+  @import '~ag-grid/src/styles/theme-bootstrap';
+  @import '~prismjs/themes/prism-okaidia';
+}
+
+html.light {
+  @import '../../../obi-bootstrap/scss/light-variables';
+  @import '../../../obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
+  @import '../../../obi-bootstrap/scss/class-overrides/index';
+  @import '~bootstrap-vue/dist/bootstrap-vue';
+  @import './partials/body';
+  @import '~ag-grid/src/styles/ag-grid';
+  @import '~ag-grid/src/styles/theme-bootstrap';
+  @import '~prismjs/themes/prism-coy';
+}
+
+@import '~font-awesome/scss/font-awesome';
+@import '~open-iconic/font/css/open-iconic-bootstrap';
