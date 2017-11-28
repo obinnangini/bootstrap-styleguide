@@ -50,7 +50,7 @@ const common = {
           },
           // other vue-loader options go here
         },
-        exclude: /node_modules/,
+        include: [path.resolve('src'), /node_modules\\bootstrap-vue/],
       },
       {
         test: /\.(js)$/,

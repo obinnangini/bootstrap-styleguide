@@ -2,7 +2,7 @@
   <div style="width: 100%">
     <ag-grid-vue
       style="width: 100%; height: 350px;"
-      class="ag-bootstrap"
+      class="ag-theme-bootstrap"
       :gridOptions="gridOptions"
     >
     </ag-grid-vue>
@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import 'ag-grid';
 import { AgGridVue } from 'ag-grid-vue';
 
 export default {
