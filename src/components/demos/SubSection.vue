@@ -8,7 +8,7 @@
     <demo-source>
      <div v-text="exampleSource"></div>
     </demo-source>
-  </div>   
+  </div>
 </div>
 </template>
 

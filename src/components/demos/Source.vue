@@ -2,7 +2,7 @@
   <pre class="demo-source">
   <code :class="languageClass">
   <slot>
-  </slot>  
+  </slot>
   </code>
   </pre>
 </template>
