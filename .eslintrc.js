@@ -8,7 +8,7 @@ const config = {
     browser: true,
   },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
-  extends: [ 'airbnb-base'],
+  extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [
     'html'
@@ -27,6 +27,7 @@ const config = {
     'arrow-parens': 'off',
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
     'no-console' : 'warn',
+    'object-curly-spacing': 'off',
     // allow async-await
     'generator-star-spacing': 'off',
     // don't require .vue extension when importing

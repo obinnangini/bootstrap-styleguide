@@ -28,7 +28,7 @@ const foo = async () => add1(6);
 
 export default {
   data() {
-    return {};
+    return {value: 0};
   },
   mounted() {
     foo().then(value => { this.value = value; });
