@@ -52,7 +52,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap-vue": "^1.2.0",
     "font-awesome": "^4.7.0",
-    "obi-bootstrap": "file:./../obi-bootstrap/obi-bootstrap-0.0.0.tgz",
+    "obi-bootstrap": "file:./../../styles/obi-bootstrap/obi-bootstrap-0.0.0.tgz",
     "open-iconic": "^1.1.1",
     "prismjs": "^1.8.4",
     "vue": "^2.5.8",
