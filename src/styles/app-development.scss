@@ -1,21 +1,21 @@
 $fa-font-path: '~font-awesome/fonts';
 $icon-font-path: '~open-iconic/font/fonts/';
-$font-styles-path: '../../../obi-bootstrap/fonts';
+$font-styles-path: '../../../../styles/obi-bootstrap/fonts';
 $font-family-base: 'Open Sans', Arial, sans-serif;
-@import '../../../obi-bootstrap/scss/obi-common';
+@import '../../../../styles/obi-bootstrap/scss/obi-common';
 
 html.dark {
-  @import '../../../obi-bootstrap/scss/dark-variables';
-  @import '../../../obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
-  @import '../../../obi-bootstrap/scss/class-overrides/index';
+  @import '../../../../styles/obi-bootstrap/scss/dark-variables';
+  @import '../../../../styles/obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
+  @import '../../../../styles/obi-bootstrap/scss/class-overrides/index';
   @import './partials/body';
   @import '~prismjs/themes/prism-okaidia';
 }
 
 html.light {
-  @import '../../../obi-bootstrap/scss/light-variables';
-  @import '../../../obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
-  @import '../../../obi-bootstrap/scss/class-overrides/index';
+  @import '../../../../styles/obi-bootstrap/scss/light-variables';
+  @import '../../../../styles/obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
+  @import '../../../../styles/obi-bootstrap/scss/class-overrides/index';
   @import './partials/body';
   @import '~prismjs/themes/prism-coy';
 }
