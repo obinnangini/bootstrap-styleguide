@@ -13,32 +13,32 @@
       >
       <div v-html="alertHtml" slot="example"></div>
     </page-sub-section>
-    <page-sub-section 
-      slot="content" 
-      title="Link" 
+    <page-sub-section
+      slot="content"
+      title="Link"
       :example-source="alertLinkHtml"
       >
       <div v-html="alertLinkHtml" slot="example"></div>
     </page-sub-section>
-    <page-sub-section 
-      slot="content" 
-      title="Heading" 
+    <page-sub-section
+      slot="content"
+      title="Heading"
       :example-source="alertHeaderHtml"
       >
       <div v-html="alertHeaderHtml" slot="example"></div>
     </page-sub-section>
-    <page-sub-section 
-      slot="content" 
-      title="Dismissable" 
+    <page-sub-section
+      slot="content"
+      title="Dismissable"
       :example-source="alertVue"
       >
       <alert-demo slot="example"></alert-demo>
     </page-sub-section>
   </page-section>
   <page-section title="Modals">
-    <page-sub-section 
-      slot="content" 
-      title="Default" 
+    <page-sub-section
+      slot="content"
+      title="Default"
       :example-source="modalDefaultHtml"
       exampleClass="col-md-12"
       exampleSourceClass="col-md-12"
@@ -47,9 +47,9 @@
         <div v-html="modalDefaultHtml"></div>
       </div>
     </page-sub-section>
-    <page-sub-section 
-      slot="content" 
-      title="Default" 
+    <page-sub-section
+      slot="content"
+      title="Default"
       :example-source="modalDefaultVue"
       >
       <modal-demo slot="example"></modal-demo>

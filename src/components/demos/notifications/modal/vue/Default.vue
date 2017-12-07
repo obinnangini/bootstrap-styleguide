@@ -2,7 +2,7 @@
   <div>
     <b-btn v-b-modal.modal1>Launch demo modal</b-btn>
 
-    <b-modal 
+    <b-modal
       id="modal1"
       ref="modal1"
       title="Example modal"

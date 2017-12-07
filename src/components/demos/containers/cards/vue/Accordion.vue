@@ -8,7 +8,7 @@
         <div class="card-body">
           <h4 class="card-title">Title #1</h4>
           <p class="card-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Ipsa architecto temporibus error iure tempora exercitationem voluptatum consequuntur facere illum nostrum.
             Dolore deserunt expedita esse eius odit quia ipsum aperiam natus.
             </p>

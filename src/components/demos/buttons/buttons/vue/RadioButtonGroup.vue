@@ -1,6 +1,6 @@
 <template>
   <div class="btn-group" data-toggle="buttons">
-  <button class="btn btn-secondary" :class="{active: active==='left'}" @click.prevent="selectButton('left', $event)"> 
+  <button class="btn btn-secondary" :class="{active: active==='left'}" @click.prevent="selectButton('left', $event)">
    Left
   </button>
   <button class="btn btn-secondary" :class="{active: active==='middle'}" @click.prevent="selectButton('middle', $event)">
