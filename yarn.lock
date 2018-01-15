@@ -4182,9 +4182,9 @@ oauth-sign@~0.8.1, oauth-sign@~0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-"obi-bootstrap@file:../../styles/obi-bootstrap/obi-bootstrap-0.0.0.tgz":
+"obi-bootstrap@https://storage.googleapis.com/obi-bootstrap/obi-bootstrap-0.0.0.tgz":
   version "0.0.0"
-  resolved "file:../../styles/obi-bootstrap/obi-bootstrap-0.0.0.tgz#27f6cd4f50b9cc71ca8b6a6444cccc824c9980a5"
+  resolved "https://storage.googleapis.com/obi-bootstrap/obi-bootstrap-0.0.0.tgz#d2c159f87afa6fd816b8715422954618e2419dd2"
   dependencies:
     bootstrap "4.0.0-beta.2"
 

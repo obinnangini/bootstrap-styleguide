@@ -1,5 +1,5 @@
 # Bootstrap Styleguide
-A styleguide that showcases Bootstrap 4 components styled with the obi-bootstrap package.
+A styleguide that showcases Bootstrap 4 components styled with the [obi-bootstrap](https://github.com/obinnangini/obi-bootstrap) package.
 
 ## TODO
  - Add Icons page to show Font Awesome and Open Iconic
