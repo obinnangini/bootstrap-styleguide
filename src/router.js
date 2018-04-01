@@ -12,6 +12,7 @@ import Forms from './components/demos/forms/Forms.vue';
 import Progress from './components/demos/progress/Progress.vue';
 import Tables from './components/demos/tables/Tables.vue';
 import Typography from './components/demos/typography/Typography.vue';
+import Iconography from './components/demos/iconography/Iconography.vue';
 
 Vue.use(VueRouter);
 
@@ -35,6 +36,7 @@ const routes = [
       { path: 'progress', component: Progress },
       { path: 'tables', component: Tables },
       { path: 'typography', component: Typography },
+      { path: 'iconography', component: Iconography },
     ],
   },
 ];

@@ -1,4 +1,4 @@
-$fa-font-path: '~font-awesome/fonts';
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 $icon-font-path: '~open-iconic/font/fonts/';
 $font-styles-path: '../../../../styles/obi-bootstrap/fonts';
 $font-family-base: 'Open Sans', Arial, sans-serif;
@@ -6,6 +6,7 @@ $font-family-base: 'Open Sans', Arial, sans-serif;
 
 html.dark {
   @import '../../../../styles/obi-bootstrap/scss/dark-variables';
+  @import '../../../../styles/obi-bootstrap/scss/variable-overrides/index';
   @import '../../../../styles/obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
   @import '../../../../styles/obi-bootstrap/scss/class-overrides/index';
   @import './partials/body';
@@ -14,15 +15,19 @@ html.dark {
 
 html.light {
   @import '../../../../styles/obi-bootstrap/scss/light-variables';
+  @import '../../../../styles/obi-bootstrap/scss/variable-overrides/index';
   @import '../../../../styles/obi-bootstrap/node_modules/bootstrap/scss/bootstrap';
   @import '../../../../styles/obi-bootstrap/scss/class-overrides/index';
   @import './partials/body';
   @import '~prismjs/themes/prism-coy';
 }
 
-@import '~bootstrap-vue/dist/bootstrap-vue.css';
+@import '~bootstrap-vue/dist/bootstrap-vue';
 @import '~ag-grid/dist/styles/ag-grid.css';
 @import '~ag-grid/dist/styles/ag-theme-bootstrap.css';
 
-@import '~font-awesome/scss/font-awesome';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/fa-brands';
+@import '~@fortawesome/fontawesome-free/scss/fa-regular';
+@import '~@fortawesome/fontawesome-free/scss/fa-solid';
 @import '~open-iconic/font/css/open-iconic-bootstrap';

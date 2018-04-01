@@ -30,6 +30,7 @@ export default {
         { name: 'Progress', link: 'progress' },
         { name: 'Tables', link: 'tables' },
         { name: 'Typography', link: 'typography' },
+        { name: 'Iconography', link: 'iconography' },
       ],
     };
   },
