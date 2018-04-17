@@ -10,8 +10,6 @@ const eslintFormatter = require('eslint-friendly-formatter');
 const nodeEnv = process.env.npm_lifecycle_event === 'start' ? 'development' : 'production';
 const common = {
 
-  // entry: path.join(__dirname, 'src', 'index.js'),
-
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
@@ -20,10 +18,8 @@ const common = {
   resolve: {
     extensions: ['.js', '.vue', '.html', '.json', '.css', '.scss'],
     alias: {
-      // '@': resolve('src'),
       vue$: 'vue/dist/vue.esm.js',
     },
-    // symlinks: false
   },
 
   module: {
@@ -49,7 +45,6 @@ const common = {
           loaders: {
             js: 'babel-loader',
           },
-          // other vue-loader options go here
         },
         include: [path.resolve('src'), path.resolve('node_modules', 'bootstrap-vue')],
       },
@@ -129,13 +124,14 @@ const prod = {
 
   module: {
     rules: [
-      // {
-      //   test: /\.css$/,
-      //   use: [
-      //     MiniCssExtractPlugin.loader,
-      //     'css-loader',
-      //   ],
-      // },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+        ],
+        exclude: /node_modules/,
+      },
       {
         test: /\.scss$/,
         use: [
@@ -158,7 +154,7 @@ const prod = {
       new UglifyJsPlugin({
         cache: true,
         parallel: true,
-        sourceMap: true, // set to true if you want JS source maps
+        sourceMap: true,
       }),
       new OptimizeCSSAssetsPlugin({}),
     ],
