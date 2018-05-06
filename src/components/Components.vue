@@ -1,5 +1,5 @@
 <template>
-  <main class="container-fluid" style="margin-bottom:20px">
+  <main class="container-fluid" style="margin-bottom:20px;">
     <div class="row">
       <div class="col-md-2">
         <SideNav></SideNav>

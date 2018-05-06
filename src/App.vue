@@ -1,5 +1,5 @@
 <template>
-<div style="position: relative">
+<div style="position: relative;">
   <app-header></app-header>
   <router-view></router-view>
   <app-footer></app-footer>
