@@ -1,7 +1,7 @@
 <template>
 <b-navbar toggleable="md" type="dark" variant="primary">
 
-  <router-link class="navbar-brand" active-class="active" :to="'Landing'">Obi Bootstrap Style Guide </router-link>
+  <router-link class="navbar-brand" active-class="active" :to="{ name: 'Landing' }">Obi Bootstrap Style Guide </router-link>
 
   <b-nav-toggle target="nav_collapse"></b-nav-toggle>
 
