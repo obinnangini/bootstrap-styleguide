@@ -44,6 +44,10 @@ const common = {
         options: {
           loaders: {
             js: 'babel-loader',
+            // css: [
+            //   MiniCssExtractPlugin.loader,
+            //   'css-loader',
+            // ],
           },
         },
         include: [path.resolve('src'), path.resolve('node_modules', 'bootstrap-vue')],
