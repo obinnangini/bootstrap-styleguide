@@ -57,7 +57,7 @@
     </page-sub-section> -->
   </page-section>
    <page-section title="Spinners">
-     <p slot="content">Spinners are created via CSS3 Animations, courtesy of the <a href="https://projects.lukehaas.me/css-loaders/"> CSS Loaders Project</a></p>
+     <p slot="content">Spinners are created via CSS3 Animations, courtesy of the <a target="_blank" href="https://projects.lukehaas.me/css-loaders/"> CSS Loaders Project</a></p>
     <page-sub-section
       slot="content"
       title="Option 1"
