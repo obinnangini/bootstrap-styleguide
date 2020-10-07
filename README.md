@@ -1,7 +1,7 @@
 # Bootstrap Styleguide
 A styleguide that showcases Bootstrap 4 components styled with the [obi-bootstrap](https://github.com/obinnangini/obi-bootstrap) package.
 
-Currently deployed in a GCP storage bucket - https://storage.googleapis.com/bootstrap-styleguide/index.html#/
+The site can be accessed at http://bootstrap-styleguide.obinnangini.com
 
 ### Development
 
