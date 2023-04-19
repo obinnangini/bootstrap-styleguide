@@ -57,7 +57,7 @@
     "ag-grid": "^17.0.0",
     "ag-grid-vue": "^17.0.0",
     "babel-polyfill": "^6.26.0",
-    "bootstrap-vue": "^2.0.0-rc.2",
+    "bootstrap-vue": "^2.23.1",
     "obi-bootstrap": "https://storage.googleapis.com/obi-bootstrap/obi-bootstrap-0.0.1.tgz",
     "open-iconic": "^1.1.1",
     "prismjs": "^1.13.0",
